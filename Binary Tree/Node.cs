@@ -9,6 +9,8 @@ namespace Binary_Tree
     class Node
     {
         public int data;
+        public Node nextNodeRight;
+        public Node nextNodeLeft;
 
         public Node(int data)
         {
